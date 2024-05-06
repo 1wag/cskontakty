@@ -63,8 +63,8 @@ namespace ObjektoveOrientovaneProgramovani
                 Console.Write("Choose a valid option: ");
                 int menu = Convert.ToInt32(Console.ReadLine());
 
-                Console.Clear();
                 Console.ReadKey();
+                Console.Clear();
 
                 switch (menu)
                 {
@@ -107,19 +107,15 @@ namespace ObjektoveOrientovaneProgramovani
                         break;
 
                 }
-
-                Console.Clear();
+                
                 Console.ReadKey();
+                Console.Clear();
 
             } while(menu != 5);
 
             Console.ReadKey();
             return 0;
-
-        //    Console.WriteLine(Tobis.age);
-        //    Console.WriteLine(Tobis.occupation);
             
         }
-
     }
 }
